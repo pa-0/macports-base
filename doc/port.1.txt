@@ -710,7 +710,7 @@ $\{prefix\}/etc/macports/sources.conf::
 $\{prefix\}/etc/macports/variants.conf::
     Global variants used when a port is installed.
 
-~/.macports/macports.conf::
+~/.files/config/macports/macports.conf::
     User configuration file for the MacPorts system. It overrides the global
     'macports.conf(5)' file.
 

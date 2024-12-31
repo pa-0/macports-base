@@ -273,7 +273,7 @@ FILES
 $\{prefix\}/etc/macports/macports.conf::
     Standard system-wide MacPorts configuration file.
 
-~/.macports/macports.conf::
+~/.files/config/macports/macports.conf::
     User-specific configuration override. This file, if found, will be used
     instead of the default file at $\{prefix\}/etc/macports/macports.conf.
 
