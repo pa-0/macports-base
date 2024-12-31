@@ -1072,7 +1072,7 @@ proc mportinit {{up_ui_options {}} {up_options {}} {up_variations {}}} {
         }
     }
 
-    # Ensure that the macports user directory (i.e. ~/.macports) exists if HOME is defined.
+    # Ensure that the macports user directory (i.e. ~/.files/config/macports) exists if HOME is defined.
     # Also save $HOME for later use before replacing it with our own.
     if {[info exists env(HOME)]} {
         set user_home $env(HOME)
